@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD8F89702CE1B58E00E97D08 /* RuleOfThree Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD8F896F2CE1B58E00E97D08 /* RuleOfThree Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD8F89752CE1B58E00E97D08 /* RuleOfThreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F89742CE1B58E00E97D08 /* RuleOfThreeApp.swift */; };
+		AD8F89772CE1B58E00E97D08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F89762CE1B58E00E97D08 /* ContentView.swift */; };
+		AD8F89792CE1B59000E97D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8F89782CE1B59000E97D08 /* Assets.xcassets */; };
+		AD8F897C2CE1B59000E97D08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8F897B2CE1B59000E97D08 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD8F89712CE1B58E00E97D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8F89632CE1B58D00E97D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8F896E2CE1B58E00E97D08;
+			remoteInfo = "RuleOfThree Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD8F89822CE1B59000E97D08 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AD8F89702CE1B58E00E97D08 /* RuleOfThree Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD8F89692CE1B58D00E97D08 /* RuleOfThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuleOfThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8F896F2CE1B58E00E97D08 /* RuleOfThree Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RuleOfThree Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8F89742CE1B58E00E97D08 /* RuleOfThreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleOfThreeApp.swift; sourceTree = "<group>"; };
+		AD8F89762CE1B58E00E97D08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD8F89782CE1B59000E97D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD8F897B2CE1B59000E97D08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8F896C2CE1B58E00E97D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD8F89622CE1B58D00E97D08 = {
+			isa = PBXGroup;
+			children = (
+				AD8F89732CE1B58E00E97D08 /* RuleOfThree Watch App */,
+				AD8F896A2CE1B58D00E97D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8F896A2CE1B58D00E97D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F89692CE1B58D00E97D08 /* RuleOfThree.app */,
+				AD8F896F2CE1B58E00E97D08 /* RuleOfThree Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8F89732CE1B58E00E97D08 /* RuleOfThree Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F89742CE1B58E00E97D08 /* RuleOfThreeApp.swift */,
+				AD8F89762CE1B58E00E97D08 /* ContentView.swift */,
+				AD8F89782CE1B59000E97D08 /* Assets.xcassets */,
+				AD8F897A2CE1B59000E97D08 /* Preview Content */,
+			);
+			path = "RuleOfThree Watch App";
+			sourceTree = "<group>";
+		};
+		AD8F897A2CE1B59000E97D08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F897B2CE1B59000E97D08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8F89682CE1B58D00E97D08 /* RuleOfThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8F89832CE1B59000E97D08 /* Build configuration list for PBXNativeTarget "RuleOfThree" */;
+			buildPhases = (
+				AD8F89672CE1B58D00E97D08 /* Resources */,
+				AD8F89822CE1B59000E97D08 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD8F89722CE1B58E00E97D08 /* PBXTargetDependency */,
+			);
+			name = RuleOfThree;
+			productName = RuleOfThree;
+			productReference = AD8F89692CE1B58D00E97D08 /* RuleOfThree.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AD8F896E2CE1B58E00E97D08 /* RuleOfThree Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8F897F2CE1B59000E97D08 /* Build configuration list for PBXNativeTarget "RuleOfThree Watch App" */;
+			buildPhases = (
+				AD8F896B2CE1B58E00E97D08 /* Sources */,
+				AD8F896C2CE1B58E00E97D08 /* Frameworks */,
+				AD8F896D2CE1B58E00E97D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RuleOfThree Watch App";
+			productName = "RuleOfThree Watch App";
+			productReference = AD8F896F2CE1B58E00E97D08 /* RuleOfThree Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8F89632CE1B58D00E97D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD8F89682CE1B58D00E97D08 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AD8F896E2CE1B58E00E97D08 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AD8F89662CE1B58D00E97D08 /* Build configuration list for PBXProject "RuleOfThree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8F89622CE1B58D00E97D08;
+			productRefGroup = AD8F896A2CE1B58D00E97D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8F89682CE1B58D00E97D08 /* RuleOfThree */,
+				AD8F896E2CE1B58E00E97D08 /* RuleOfThree Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8F89672CE1B58D00E97D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8F896D2CE1B58E00E97D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8F897C2CE1B59000E97D08 /* Preview Assets.xcassets in Resources */,
+				AD8F89792CE1B59000E97D08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8F896B2CE1B58E00E97D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8F89772CE1B58E00E97D08 /* ContentView.swift in Sources */,
+				AD8F89752CE1B58E00E97D08 /* RuleOfThreeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD8F89722CE1B58E00E97D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8F896E2CE1B58E00E97D08 /* RuleOfThree Watch App */;
+			targetProxy = AD8F89712CE1B58E00E97D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD8F897D2CE1B59000E97D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD8F897E2CE1B59000E97D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD8F89802CE1B59000E97D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RuleOfThree Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N272GBMGD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RuleOfThree;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schiar.RuleOfThree.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AD8F89812CE1B59000E97D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RuleOfThree Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N272GBMGD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RuleOfThree;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schiar.RuleOfThree.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AD8F89842CE1B59000E97D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N272GBMGD;
+				INFOPLIST_KEY_CFBundleDisplayName = RuleOfThree;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schiar.RuleOfThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD8F89852CE1B59000E97D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N272GBMGD;
+				INFOPLIST_KEY_CFBundleDisplayName = RuleOfThree;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.schiar.RuleOfThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8F89662CE1B58D00E97D08 /* Build configuration list for PBXProject "RuleOfThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8F897D2CE1B59000E97D08 /* Debug */,
+				AD8F897E2CE1B59000E97D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8F897F2CE1B59000E97D08 /* Build configuration list for PBXNativeTarget "RuleOfThree Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8F89802CE1B59000E97D08 /* Debug */,
+				AD8F89812CE1B59000E97D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8F89832CE1B59000E97D08 /* Build configuration list for PBXNativeTarget "RuleOfThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8F89842CE1B59000E97D08 /* Debug */,
+				AD8F89852CE1B59000E97D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD8F89632CE1B58D00E97D08 /* Project object */;
+}
