@@ -1,1 +1,6 @@
 RuleOfThree.xcodeproj/xcuserdata/
+*.xcworkspacedata
+*.xcuserstate
+*.xcscheme
+xcschememanagement.plist
+*.xcbkptlist
