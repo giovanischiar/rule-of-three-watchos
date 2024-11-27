@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct RuleOfThree_Watch_AppApp: App {
+    @ObservedObject private var crossMultipliersCreatorViewModel: CrossMultipliersCreatorViewModel
+    
+    init() {
+        let crossMultipliersCreatorRepository = CrossMultipliersCreatorRepository()
+        crossMultipliersCreatorViewModel = CrossMultipliersCreatorViewModel(
+            crossMultipliersCreatorRepository: crossMultipliersCreatorRepository
+        )
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Navigation()
+                .environmentObject(crossMultipliersCreatorViewModel)
         }
     }
 }
