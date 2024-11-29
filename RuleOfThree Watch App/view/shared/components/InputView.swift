@@ -17,6 +17,20 @@ struct InputView: View {
     var onEnterPressed: () -> Void = {}
     
     @State var isCharacterPadShown = false
+
+    private func handleEnterPressed() {
+        let decimalSeparator = Locale.current.decimalSeparator ?? "."
+
+        if displayValue == decimalSeparator {
+            onClearPressed()
+        }
+
+        if !displayValue.isEmpty, displayValue.last == Character(decimalSeparator) {
+            onBackspacePressed()
+        }
+        isCharacterPadShown = false
+        onEnterPressed()
+    }
     
     var body: some View {
         Button {} label: {
@@ -39,7 +53,7 @@ struct InputView: View {
                     onCharacterPressed: onCharacterPressed,
                     onBackpacePressed: onBackspacePressed,
                     onClearPressed: onClearPressed,
-                    onEnterPressed: { onEnterPressed(); isCharacterPadShown = false }
+                    onEnterPressed: { handleEnterPressed() }
                 )
             }
     }
