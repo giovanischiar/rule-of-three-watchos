@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0989352CF9775000D35008 /* AppIconPalette.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0989342CF9775000D35008 /* AppIconPalette.xcassets */; };
+		AD0989362CF9775000D35008 /* AppIconPalette.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0989342CF9775000D35008 /* AppIconPalette.xcassets */; };
 		AD8F89702CE1B58E00E97D08 /* RuleOfThree Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD8F896F2CE1B58E00E97D08 /* RuleOfThree Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD8F89752CE1B58E00E97D08 /* RuleOfThreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F89742CE1B58E00E97D08 /* RuleOfThreeApp.swift */; };
 		AD8F89792CE1B59000E97D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8F89782CE1B59000E97D08 /* Assets.xcassets */; };
@@ -66,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD0989342CF9775000D35008 /* AppIconPalette.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIconPalette.xcassets; sourceTree = "<group>"; };
 		AD8F89692CE1B58D00E97D08 /* RuleOfThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuleOfThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8F896F2CE1B58E00E97D08 /* RuleOfThree Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RuleOfThree Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8F89742CE1B58E00E97D08 /* RuleOfThreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleOfThreeApp.swift; sourceTree = "<group>"; };
@@ -138,6 +141,7 @@
 				AD8F89862CE1B8EC00E97D08 /* view */,
 				AD8F89742CE1B58E00E97D08 /* RuleOfThreeApp.swift */,
 				AD8F89782CE1B59000E97D08 /* Assets.xcassets */,
+				AD0989342CF9775000D35008 /* AppIconPalette.xcassets */,
 				AD8F897A2CE1B59000E97D08 /* Preview Content */,
 			);
 			path = "RuleOfThree Watch App";
@@ -328,6 +332,7 @@
 			buildConfigurationList = AD8F897F2CE1B59000E97D08 /* Build configuration list for PBXNativeTarget "RuleOfThree Watch App" */;
 			buildPhases = (
 				AD8F896B2CE1B58E00E97D08 /* Sources */,
+				AD0989372CF979AF00D35008 /* Generate SVG Icon, Generate PNGs From SVG, Copy PNGs to Assets Folder */,
 				AD8F896C2CE1B58E00E97D08 /* Frameworks */,
 				AD8F896D2CE1B58E00E97D08 /* Resources */,
 			);
@@ -383,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0989352CF9775000D35008 /* AppIconPalette.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,11 +397,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8F897C2CE1B59000E97D08 /* Preview Assets.xcassets in Resources */,
+				AD0989362CF9775000D35008 /* AppIconPalette.xcassets in Resources */,
 				AD8F89792CE1B59000E97D08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD0989372CF979AF00D35008 /* Generate SVG Icon, Generate PNGs From SVG, Copy PNGs to Assets Folder */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/RuleOfThree Watch App/AppIconPalette.xcassets",
+				"$(SRCROOT)/scripts/IconCreator/Icon",
+			);
+			name = "Generate SVG Icon, Generate PNGs From SVG, Copy PNGs to Assets Folder";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/RuleOfThree Watch App/Assets.xcassets/AppIcon.appiconset",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash scripts/IconCreator/Library/icon-creator.sh ios \"../../RuleOfThree Watch App\" ../Icon\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD8F896B2CE1B58E00E97D08 /* Sources */ = {
